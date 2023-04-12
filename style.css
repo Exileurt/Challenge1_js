@@ -110,6 +110,9 @@ aside {
 }
 
 @media screen and (max-width: 845px) {
+  body {
+    display: flex;
+  }
   section {
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
@@ -131,7 +134,7 @@ aside {
     font-size: 10vw;
     letter-spacing: 1vw;
     text-align: center;
-    padding: 30px 30px 0px 30px;
+    padding: 70px 40px 0px 40px;
   }
 
   .coming {
@@ -145,11 +148,11 @@ aside {
     font-size: 3.6vw;
     font-weight: 400;
     text-align: center;
-    padding: 0px 10px 10px 40px;
+    padding: 0px 0px 10px 70px;
   }
 
   .form--field {
-    width: 70%;
+    width: 60%;
     height: 10vw;
     background: linear-gradient(white, white) padding-box,
       linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%)) border-box;
@@ -159,7 +162,7 @@ aside {
     font-size: 4vw;
     font-weight: 300;
     padding-left: 25px;
-    margin-left: 40px;
+    margin-left: 110px;
   }
 
   .btn--submit {
@@ -172,7 +175,7 @@ aside {
     border: 0px solid transparent;
     position: relative;
     left: 70%;
-    bottom: 45px;
+    bottom: 75px;
     box-shadow: 0px 17px 15px rgba(234, 167, 153, 0.4);
   }
   .women {
