@@ -24,6 +24,9 @@ section {
   margin: 8% 20% 10% 15%;
 }
 
+.imgmobile {
+  display: none;
+}
 .were {
   font-weight: 300;
   color: hsl(0, 36%, 70%);
@@ -119,7 +122,9 @@ aside {
     flex-direction: row;
     margin: 0px;
   }
-
+  .imgmobile {
+    display: initial;
+  }
   .logo {
     margin: 30px 20px 20px 30px;
     width: 30%;
